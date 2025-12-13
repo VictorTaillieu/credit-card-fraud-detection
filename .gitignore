@@ -1,0 +1,8 @@
+# --- Poetry ---
+poetry.lock
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data ---
+data/raw/
