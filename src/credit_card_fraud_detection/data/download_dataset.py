@@ -1,8 +1,9 @@
 import logging
 import shutil
-from pathlib import Path
 
 import kagglehub
+
+from credit_card_fraud_detection import PROJECT_ROOT
 
 logging.basicConfig(
     level=logging.INFO,
@@ -11,8 +12,7 @@ logging.basicConfig(
 
 
 def download_creditcard_data(output_dir="data/raw"):
-    output_dir = Path(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir = PROJECT_ROOT / output_dir
 
     logging.info("Downloading dataset from Kaggle...")
 
