@@ -6,9 +6,11 @@ authors = [
     {name = "Victor Taillieu",email = "vic8.taillieu@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.13"
 dependencies = [
-    "kagglehub (>=0.3.13,<0.4.0)"
+    "kagglehub (>=0.3.13,<0.4.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "pandas (>=2.3.3,<3.0.0)"
 ]
 
 
